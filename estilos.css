@@ -189,6 +189,7 @@
 .cities__index {
     background-image: url(/images/mapamundo.jpg);
     padding: 30px;
+    background-attachment: fixed;
 }
 
 
@@ -443,6 +444,7 @@
     height: 900px; 
     width: 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .page__atenas-title {
@@ -458,6 +460,7 @@
 .culture__atenas{
     padding: 20px;
     background-color: black;
+    background-attachment: fixed;
 }
 
 .culture__atenas-title{
@@ -473,6 +476,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/culturaAtenas.jpg') ;
+    background-attachment: fixed;
     
 }
 
@@ -498,6 +502,7 @@
 .activities__atenas-delfos{
     padding: 20px;
     background-color: black;
+    
 }
 
 .activities__atenas-container-delfos{
@@ -508,8 +513,10 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasDelfos.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
+
     
 }
 
@@ -538,6 +545,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasHodeondeHerodes.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -568,6 +576,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasHidra.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -598,6 +607,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -628,6 +638,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasZeusTemple.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -665,6 +676,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PsarosoupaAtenas.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -695,6 +707,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/tyropita.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -725,6 +738,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/spanakopitaAtenas.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -754,6 +768,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/dolmadesAtenas.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -780,6 +795,7 @@
     height: 900px; 
     width: 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .page__jerusalen-title {
@@ -810,6 +826,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/JerusalenCultura.jpg') ;
+    background-attachment: fixed;
     
 }
 
@@ -845,6 +862,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitJerusalenNazaret.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -875,6 +893,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitJerusalenPetra.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -905,6 +924,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -942,6 +962,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/ShawarmaJerusalen.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -972,6 +993,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/SabichorSabihJerusalen.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1001,6 +1023,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/LabnehJerusalen.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1030,6 +1053,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/HalvaJerusalen.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1053,6 +1077,7 @@
     height: 900px; 
     width: 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .page__londres-title {
@@ -1083,6 +1108,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/culturalondres.jpg') ;
+    background-attachment: fixed;
     
 }
 
@@ -1118,6 +1144,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitlondreslondoneye.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1148,6 +1175,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitLondresShard.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1178,6 +1206,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitLondresTorres.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1208,6 +1237,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitLondresTorresWindorCastle.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1249,6 +1279,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/YorkshirepuddingLondres.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1279,6 +1310,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/SteakandkidneypieLondres.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1308,6 +1340,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/RoastbeefLondes.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1338,6 +1371,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/fishandchipsLondres.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1361,6 +1395,7 @@
     height: 900px; 
     width: 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .page__roma-title {
@@ -1391,6 +1426,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/CulturaRoma2.jpg') ;
+    background-attachment: fixed;
     
 }
 
@@ -1426,6 +1462,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaColiseo.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1456,6 +1493,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaCapillaSixtina.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1487,6 +1525,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaCostaAmalfi.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1517,6 +1556,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaVaticano.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1555,6 +1595,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PORCHETTADIARICCIARoma2.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1585,6 +1626,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/spaghettiRoma.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1614,6 +1656,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/SUPPLÍALLAROMANARoma.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1644,6 +1687,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/MARITOZZOCONLAPANNARoma.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1667,6 +1711,7 @@
     height: 900px; 
     width: 100%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .page__tokio-title {
@@ -1697,6 +1742,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/culturaTokio.jpg') ;
+    background-attachment: fixed;
     
 }
 
@@ -1732,6 +1778,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioBay.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1762,6 +1809,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioBayMarMuerto.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1792,6 +1840,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1822,6 +1871,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioUenoPark.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1860,6 +1910,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/tamagoyakiTokio.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1890,6 +1941,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/sushiTokio.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1919,6 +1971,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/RamenTokio.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1949,6 +2002,7 @@
     background-position: top;
     background-size: cover;
     background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/gyozaTokio.jpg') ;
+    background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
     
@@ -1965,11 +2019,6 @@
 }
 
 /*who are we*/
-
-.we__container {
-    background-image: url('/images/mapamundo.jpg');
-    padding: 300px;
-}
 
 .timeline__atenas img{
     border-radius: 50%;
@@ -1993,18 +2042,156 @@
     margin-left: 10%;
 }
 
-
-@media (max-width: 767px) { 
-    .cities__photos-galery {
-        columns:2;
-    }
-
+body{
+    background-image: url(/images/mapamundo.jpg);
+    background-attachment: fixed;
 }
-        
-/* Móviles en vertical */
+.timeline{
+    position:relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+@keyframes movedown{
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) ;
+    }
+}
 
-@media (max-width: 480px) {
-    .cities__photos-galery {
-        columns: 1;
+/* animacion de despliegue de ambos (derecha e izquierda) hacia arriba y abajo)*/ 
+
+.container:nth-child(1){
+    animation-delay: 0s;
+}
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container:nth-child(3){
+    animation-delay: 2s;
+}
+.container:nth-child(4){
+    animation-delay: 3s;
+}
+.container:nth-child(5){
+    animation-delay: 4s;
+}
+
+.text-box{
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.left-container{
+    left: 0;
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left:-20px;
+}
+.timeline::after{
+    content:'';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height:100% ;
+    }
+}
+
+.text-box h2{
+    font-weight: 600;
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    right: -15px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    left: -15px;
+} 
+
+/*responsive*/
+
+@media screen and (max-width: 600px){
+    .timeline{
+        margin: 50px auto;
+    }
+    .timeline::after{
+        left: 31px;
+    }
+    .container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-box{
+        font-size: 13px;
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container img, .right-container img{
+        left: 10px;
+    }
+    .left-container-arrow, .right-container-arrow{
+        border-right: 15px solid #fff;
+        border-left: 0;
+        left: -15px;
     }
 }
