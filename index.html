@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/902/845/png-transparent-airplane-aircraft-flight-airplane-mode-of-transport-flight-airplane-thumbnail.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar__logo">
+            <a href="index.html">
+                <img src="images/logo.jpg" alt="logito">
+            </a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu-options"><a href="index.html">Home</a></li>
+            <li class="navbar__menu-options"><a href="/screens/cities.html">Cities</a></li>
+            <li class="navbar__menu-options"><a href="/screens/galery.html">Galery</a></li>
+        </ul>
+        <a href="screens/who-are-we.html" class="navbar__who">Who are we?</a>
+    </div>
+    
+    <div class="search">
+        <h1 class="search__title">Place u are interested in:</h1>
+        <select class="search__select">
+            <option class="search__select-options" value="0">Select city</option>
+            <a href="screens/atenas.html">
+                <option class="search__select-options" value="1">Atenas</option>
+            </a>
+
+            <option class="search__select-options" value="2">Londres</option>
+            <option class="search__select-options" value="3">Jerusalén</option>
+            <option class="search__select-options" value="4">Tokio</option>
+            <option class="search__select-options" value="5">Roma</option>
+        </select>
+
+        <button class="search__button-submit">Search</button>
+
+    </div>
+
+
+    <div class="cities__index">
+        <div class="cities__photos-index">
+
+            <div class="index__photo-atenas">
+                <a href="screens/atenas.html">
+                    <img src="../images/atenas.jpg" alt="Atenas" width="600" height="400" style="border-radius: 10px;">
+                    <div class="index__title-atenas">
+                        <h1>Atenas</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="index__photo-jerusalen">
+                <a href="screens/jerusalen.html">
+                    <img src="../images/jerusalen.jpg" alt="Jerusalen" width="600" height="400" style="border-radius: 10px;">
+                    <div class="index__title-jerusalen">
+                        <h1>Jerusalen</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="index__photo-londres">
+                <a href="screens/londres.html">
+                    <img src="../images/londres.jpg" alt="Londres" width="600" height="400" style="border-radius: 10px;">
+                    <div class="index__title-londres">
+                        <h1>Londres</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="index__photo-roma">
+                <a href="screens/roma.html">
+                    <img src="../images/roma.jpg" alt="Roma" width="600" height="400" style="border-radius: 10px;">
+                    <div class="index__title-roma">
+                        <h1>Roma</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div class="index__photo-tokio">
+                <a href="screens/tokio.html">
+                    <img src="../images/tokio.jpg" alt="Tokio" width="600" height="400" style="border-radius: 10px;">
+                    <div class="index__title-tokio">
+                        <h1>Tokio</h1>
+                    </div>
+                </a>
+            </div> 
+
+        </div>
+    </div>
+
+    <div class="footer__homepage">
+
+        <h1 class="footer__homepage-contact-us">Contact Us</h1>
+
+        <i class="fab fa-whatsapp" style="color: white"></i>
+        <i class="fab fa-instagram" style="color: white"></i>
+        <i class="fab fa-twitter" style="color: white"></i>
+        <i class="email" style="color: white"></i>
+
+        <div class="footer__homepage-contact-container">
+            <h2 class="footer__homepage-contact-container-title">Leave your Message</h2>
+
+            <div class="footer__homepage-contact-container-form">
+                <div class="col-25">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="name" placeholder="Your name..">
+                </div>
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                </div>
+                <div class="col-25">
+                    <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="message" name="message" placeholder="Write something.." style="height:200px; width: 600px;"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <button class="footer__homepage-button-submit">Submit</button>
+
+        <p class="footer__page-author">Author: Matias Guazzolini</p>
+
+    </div>
+
+</body>
+</html>
