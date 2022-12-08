@@ -1,4 +1,4 @@
-*{margin: 0; padding: 0; box-sizing: border-box}
+    *{margin: 0; padding: 0; box-sizing: border-box}
 
 /*navbar*/
 
@@ -194,10 +194,6 @@
 
 /*galeria*/
 
-.cities__photos-galery{
-    text-align: center;
-}
-
 .cities__photos-index{
     text-align: center;
 }
@@ -206,6 +202,22 @@
     background-image: url(/images/galerybackgorund3.jpg);
     padding: 30px;
 }
+
+.img{
+    width: 100%;
+    height: 300px;
+}
+
+.col-lg-4{
+   padding: 7px; 
+   margin: 0 !important;
+}
+
+.img:hover{
+    border: 5px solid rgba(27, 27, 27, 0.7);
+}
+
+
 
 /*footer homepage*/
 
@@ -1982,3 +1994,17 @@
 }
 
 
+@media (max-width: 767px) { 
+    .cities__photos-galery {
+        columns:2;
+    }
+
+}
+        
+/* Móviles en vertical */
+
+@media (max-width: 480px) {
+    .cities__photos-galery {
+        columns: 1;
+    }
+}
