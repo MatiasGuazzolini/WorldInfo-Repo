@@ -1,5 +1,9 @@
     *{margin: 0; padding: 0; box-sizing: border-box}
 
+html{
+    scroll-behavior:smooth;
+}
+
 /*navbar*/
 
 .navbar {
@@ -7,7 +11,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: black; 
     position: relative;
     display: flex ;
     align-items: center;
@@ -200,14 +204,19 @@
 }
 
 .cities___galery{
-    background-image: url(/images/galerybackgorund3.jpg);
+    background-image: url(/images/galerybackground3.jpg);
+    background-attachment: fixed;
     padding: 30px;
 }
 
 .img{
     width: 100%;
     height: 300px;
+    object-fit: cover;
+    transition: 1s;
+    border-radius: 15px;
 }
+
 
 .col-lg-4{
    padding: 7px; 
@@ -215,7 +224,8 @@
 }
 
 .img:hover{
-    border: 5px solid rgba(27, 27, 27, 0.7);
+    transform: scale(1.05);
+    z-index: 2;
 }
 
 
@@ -281,7 +291,7 @@
     background-image: url('/images/atenas.jpg');
     background-position: center;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/atenas.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .3), rgba(0 0 0 / .6)), url('/images/atenas.jpg') ;
     
 }
 
@@ -297,11 +307,10 @@
     float: right;
     text-align: right;
     padding: 8px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: justify;
     color: black;
     border: 3px solid black;
-    
 }
 
 /*cities jerusalen*/
@@ -329,7 +338,7 @@
     float: right;
     text-align: right;
     padding: 8px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: justify;
     color: black;
     border: 3px solid black;
@@ -361,7 +370,7 @@
     float: right;
     text-align: right;
     padding: 8px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: justify;
     color: black;
     border: 3px solid black;
@@ -393,7 +402,7 @@
     float: right;
     text-align: right;
     padding: 8px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: justify;
     color: black;
     border: 3px solid black;
@@ -425,7 +434,7 @@
     float: right;
     text-align: right;
     padding: 8px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: justify;
     color: black;
     border: 3px solid black;
@@ -1720,6 +1729,7 @@
     padding-top: 150px;
     font-size: 100px;
     font-family: 'Pacifico', cursive;
+    color: #fff;
 }
 
 /*cultura tokio*/
