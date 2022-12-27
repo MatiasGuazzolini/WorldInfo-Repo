@@ -1,0 +1,22 @@
+{
+  "name": "worldinfo-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "build-sass": "node-sass --include-path scss scss/main.scss css/estilos.css -w"
+
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasGuazzolini/WorldInfo-Repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasGuazzolini/WorldInfo-Repo/issues"
+  },
+  "homepage": "https://github.com/MatiasGuazzolini/WorldInfo-Repo#readme"
+}
