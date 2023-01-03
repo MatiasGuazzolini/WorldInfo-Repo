@@ -17,112 +17,89 @@
 
     <!-- Creacion de barra de navegacion en el header -->
 
-    <header class="navbar">
-        <div class="navbar__logo">
-            <a href="../index.html">
-                <img src="../images/logo.jpg" alt="logito">
-            </a>
-        </div>
-        <ul class="navbar__menu">
-            <li class="navbar__menu-options"><a href="../index.html">Home</a></li>
-            <li class="navbar__menu-options"><a href="/screens/cities.html">Cities</a></li>
-            <li class="navbar__menu-options"><a href="/screens/galery.html">Galery</a></li>
-        </ul>
-        <a href="who-are-we.html" class="navbar__who">Who are we?</a>
+    <header class="header_nav">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <a href="../index.html">
+                    <img src="../images/logo.jpg" alt="logito">
+                </a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav__menu">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="cities.html">Cities</a></li>
+                <li><a href="galery.html">Galery</a></li>
+                <li><a href="who-are-we.html">Who are we?</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Seccion Atenas -->
-        
-    <a href="atenas.html">
-        <section class="cities__photos-atenas-container">
+    <!-- Grid cities -->
 
-            <div class="cities__photos-atenas-container-title">
-                <h2 class="cities__atenas-title">Atenas</h2>                    
-            </div>
+    <div class="grid__cities">
 
-            <div class="cities__photos-atenas-container-description">
-                <strong class="cities__atenas-description">Atenas es la capital de Grecia. También se encontraba en el centro de la Antigua Grecia, 
+        <!-- Atenas -->
+
+        <a href="atenas.html">
+            <div class="grid__atenas">  
+                <div class="title__atenas">Atenas</div>
+                <div class="description__atenas">Atenas es la capital de Grecia. También se encontraba en el centro de la Antigua Grecia, 
                     un poderoso imperio y civilización. En la ciudad, aún predominan los sitios geográficos del siglo V a. C., incluida la Acrópolis, 
                     una ciudadela sobre un monte con antiguos edificios, como el templo del Partenón con sus columnas. En el Museo de la Acrópolis y en el Museo
-                    Arqueológico Nacional, se preservan esculturas, jarrones, joyas y más elementos de la Antigua Grecia.</strong>
+                    Arqueológico Nacional, se preservan esculturas, jarrones, joyas y más elementos de la Antigua Grecia.</div>
             </div>
+        </a>
 
-        </section>
-    </a>
+        <!-- Jerusalen -->
 
-    <!-- Seccion Jerusalen -->
-
-    <a href="jerusalen.html">
-        <section class="cities__photos-jerusalen-container">
-
-            <div class="cities__photos-jerusalen-container-title">
-                <h2 class="jerusalen-title">Jerusalen</h2>                    
+        <a href="jerusalen.html">
+            <div class="grid__jerusalen">  
+                <div class="title__jerusalen">Jerusalen</div>
+                <div class="description__jerusalen">Jerusalén​ es una ciudad de Oriente Próximo, situada en los montes de Judea, entre el mar Mediterráneo y la ribera norte del mar Muerto. 
+                    Los israelíes la han erigido como capital del Estado de Israel, mientras que el Estado de Palestina reivindica su parte oriental como su propia capital</div>
             </div>
+        </a>
 
-            <div class="cities__photos-jerusalen-container-description">
-                <strong class="jerusalen-description"> Jerusalén​ es una ciudad de Oriente Próximo, situada en los montes de Judea, entre el mar Mediterráneo y la ribera norte del mar Muerto. 
-                    Los israelíes la han erigido como capital del Estado de Israel, mientras que el Estado de Palestina reivindica su parte oriental como su propia capital</strong>
-            </div>
-                    
-        </section>
-    </a>
+        <!-- Londres -->
 
-    <!-- Seccion Londres -->
-
-    <a href="londres.html">
-        <section class="cities__photos-londres-container">
-
-            <div class="cities__photos-londres-container-title">
-                <h2 class="londres-title">Londres</h2>                    
-            </div>
-
-            <div class="cities__photos-londres-container-description">
-                <strong class="londres-description"> Londres, la capital de Inglaterra y del Reino Unido, es una ciudad del siglo XXI con una historia que se remonta a la época 
+        <a href="londres.html">
+            <div class="grid__londres">  
+                <div class="title__londres">Londres</div>
+                <div class="description__londres">Londres, la capital de Inglaterra y del Reino Unido, es una ciudad del siglo XXI con una historia que se remonta a la época 
                     romana. En su centro se alzan el imponente Palacio del Parlamento, la torre del icónico reloj "Big Ben" y la Abadía de Westminster, lugar de las 
                     coronaciones monárquicas británicas. Al otro lado del río Támesis, la rueda de observación London Eye ofrece vistas panorámicas del complejo cultural 
-                    South Bank y de toda la ciudad.</strong>
+                    South Bank y de toda la ciudad.</div>
             </div>
-                    
-        </section>
-    </a>
+        </a>
 
-    <!-- Seccion Roma -->
+        <!-- Roma -->
 
-    <a href="roma.html">
-        <section class="cities__photos-roma-container">
-
-            <div class="cities__photos-roma-container-title">
-                <h2 class="roma-title">Roma</h2>                    
-            </div>
-
-            <div class="cities__photos-roma-container-description">
-                <strong class="roma-description"> Roma, la capital de Italia, es una extensa ciudad cosmopolita que tiene a la vista casi 3,000 años de arte, arquitectura 
+        <a href="roma.html">
+            <div class="grid__roma">  
+                <div class="title__roma">Roma</div>
+                <div class="description__roma">Roma, la capital de Italia, es una extensa ciudad cosmopolita que tiene a la vista casi 3,000 años de arte, arquitectura 
                     y cultura de influencia mundial. Las ruinas antiguas como las del Foro y el Coliseo evocan el poder del antiguo Imperio Romano. La ciudad del Vaticano, 
                     sede central de la Iglesia católica romana, cuenta con la Basílica de San Pedro y los Museos del Vaticano, que albergan obras maestras como los frescos 
-                    de la Capilla Sixtina de Miguel Ángel.</strong>
+                    de la Capilla Sixtina de Miguel Ángel.</div>
             </div>
-                    
-        </section>
-    </a>
+        </a>
 
-    <!-- Seccion Tokio -->
-
-    <a href="tokio.html">
-        <section class="cities__photos-tokio-container">
-
-            <div class="cities__photos-tokio-container-title">
-                <h2 class="tokio-title">Tokio</h2>                    
-            </div>
-
-            <div class="cities__photos-tokio-container-description">
-                <strong class="tokio-description"> Tokio, la ajetreada capital de Japón, mezcla lo ultramoderno y lo tradicional, desde los rascacielos iluminados con neones 
+        <!-- Tokio -->
+        
+        <a href="tokio.html">
+            <div class="grid__tokio">  
+                <div class="title__tokio">Tokio</div>
+                <div class="description__tokio">Tokio, la ajetreada capital de Japón, mezcla lo ultramoderno y lo tradicional, desde los rascacielos iluminados con neones 
                     hasta los templos históricos. El opulento santuario Shinto Meiji es conocido por su puerta altísima y los bosques circundantes. El Palacio Imperial 
                     se ubica en medio de grandes jardines públicos. Los distintos museos de la ciudad ofrecen exhibiciones que van desde el arte clásico (en el Museo 
-                    Nacional de Tokio) hasta un teatro kabuki reconstruido (en el Museo Edo-Tokyo).</strong>
+                    Nacional de Tokio) hasta un teatro kabuki reconstruido (en el Museo Edo-Tokyo).</div>
             </div>
-                    
-        </section>
-    </a>
+        </a>
+
+    </div>
 
     <!-- Creacion de footer -->
 

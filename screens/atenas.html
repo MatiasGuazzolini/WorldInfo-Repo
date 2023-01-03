@@ -17,18 +17,24 @@
 
     <!-- Creacion de barra de navegacion en el header -->
 
-    <header class="navbar">
-        <div class="navbar__logo">
-            <a href="../index.html">
-                <img src="../images/logo.jpg" alt="logito">
-            </a>
-        </div>
-        <ul class="navbar__menu">
-            <li class="navbar__menu-options"><a href="../index.html">Home</a></li>
-            <li class="navbar__menu-options"><a href="/screens/cities.html">Cities</a></li>
-            <li class="navbar__menu-options"><a href="/screens/galery.html">Galery</a></li>
-        </ul>
-        <a href="who-are-we.html" class="navbar__who">Who are we?</a>
+    <header class="header_nav">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <a href="../index.html">
+                    <img src="../images/logo.jpg" alt="logito">
+                </a>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav__menu">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="cities.html">Cities</a></li>
+                <li><a href="galery.html">Galery</a></li>
+                <li><a href="who-are-we.html">Who are we?</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Titulo de la pagina -->
