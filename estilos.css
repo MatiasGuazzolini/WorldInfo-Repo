@@ -94,7 +94,7 @@ a:link {
 /*index*/
 /* pagina principal inicio*/
 .search {
-    background-image: url('/images/homepage.jpg');
+    background-image: url('images/homepage.jpg');
     background-size: cover; 
     height: 1000px; 
     width: 100%;
