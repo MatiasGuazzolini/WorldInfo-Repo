@@ -2076,7 +2076,7 @@ a:link {
 }
 
 body{
-    background-image: url(/images/mapamundo.jpg);
+    background-image: url(./images/mapamundo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -2273,7 +2273,7 @@ body{
 .item1{
     grid-column-start: 3;
     grid-column-end: 8;
-    background-image: url(/images/perfil.jpg);
+    background-image: url(./images/perfil.jpg);
     text-align: center;
 }
 .item2{
