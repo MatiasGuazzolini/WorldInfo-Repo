@@ -329,7 +329,7 @@ a:link {
     display: grid;   
     grid-template-columns: 20% 70%;
     grid-template-rows: 350px;
-    background: linear-gradient(to left, rgba(0 0 0 / .3), rgba(0 0 0 / .6)), url('/images/atenas.jpg');
+    background: linear-gradient(to left, rgba(0 0 0 / .3), rgba(0 0 0 / .6)), url('images/atenas.jpg');
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -357,7 +357,7 @@ a:link {
     display: grid;   
     grid-template-columns: 20% 70%;
     grid-template-rows: 350px;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/jerusalen.jpg');
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/jerusalen.jpg');
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -384,7 +384,7 @@ a:link {
     display: grid;   
     grid-template-columns: 20% 70%;
     grid-template-rows: 350px;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/londres2.jpg');
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/londres2.jpg');
     background-position: top;
     background-size: cover;
     align-items: center;
@@ -411,7 +411,7 @@ a:link {
     display: grid;   
     grid-template-columns: 20% 70%;
     grid-template-rows: 350px;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/roma.jpg');
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/roma.jpg');
     background-position: top;
     background-size: cover;
     align-items: center;
@@ -439,7 +439,7 @@ a:link {
     display: grid;   
     grid-template-columns: 20% 70%;
     grid-template-rows: 350px;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/tokio.jpg');
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/tokio.jpg');
     background-position: top;
     background-size: cover;
     align-items: center;
