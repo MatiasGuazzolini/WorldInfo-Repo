@@ -854,10 +854,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/JerusalenCultura.jpg');
+    background-image: url('images/JerusalenCultura.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/JerusalenCultura.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/JerusalenCultura.jpg') ;
     background-attachment: fixed;
     
 }
@@ -890,10 +890,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitJerusalenNazaret.jpg');
+    background-image: url('images/PlacesUMustVisitJerusalenNazaret.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitJerusalenNazaret.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitJerusalenNazaret.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -921,10 +921,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitJerusalenPetra.jpg');
+    background-image: url('images/PlacesUMustVisitJerusalenPetra.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitJerusalenPetra.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitJerusalenPetra.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -952,10 +952,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg');
+    background-image: url('images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -990,10 +990,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/ShawarmaJerusalen.jpg');
+    background-image: url('images/ShawarmaJerusalen.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/ShawarmaJerusalen.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/ShawarmaJerusalen.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1021,10 +1021,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/SabichorSabihJerusalen.jpg');
+    background-image: url('images/SabichorSabihJerusalen.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/SabichorSabihJerusalen.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/SabichorSabihJerusalen.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1051,10 +1051,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/LabnehJerusalen.jpg');
+    background-image: url('images/LabnehJerusalen.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/LabnehJerusalen.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/LabnehJerusalen.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1081,10 +1081,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/HalvaJerusalen.jpg');
+    background-image: url('images/HalvaJerusalen.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/HalvaJerusalen.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/HalvaJerusalen.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
