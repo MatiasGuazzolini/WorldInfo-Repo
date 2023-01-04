@@ -1,0 +1,1996 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+/*navbar*/
+.header_nav {
+  width: 100%;
+  height: 80px;
+  background-color: black; }
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navbar__logo img {
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+  margin-left: 30px; }
+
+.bar-btn {
+  display: none;
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer; }
+
+.nav__menu {
+  position: relative;
+  height: 100px;
+  top: 0;
+  background: none;
+  text-align: center;
+  transition: none; }
+
+.nav__menu li {
+  display: inline-block;
+  line-height: 100px;
+  margin-right: 40px;
+  transition: none; }
+
+.nav__menu li a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold; }
+
+.nav__menu li a.active, .nav__menu li a:hover {
+  color: aquamarine;
+  transition: .3s; }
+
+#check {
+  display: none; }
+
+#check:checked ~ .nav__menu {
+  height: 250px;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  background: black;
+  text-align: center;
+  transition: all .5s; }
+
+#check:checked ~ .nav__menu li {
+  display: block; }
+
+/*index*/
+/* pagina principal inicio*/
+.search {
+  background-image: url("../images/homepage.jpg");
+  background-size: cover;
+  height: 1000px;
+  width: 100%; }
+
+.search__title {
+  text-align: center;
+  color: black;
+  line-height: 100px;
+  font-size: 40px; }
+
+.search__select {
+  border: white;
+  background: black;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  opacity: 0.6; }
+
+.search__select-options {
+  color: white;
+  text-align: center;
+  opacity: 0.6; }
+
+.search__button-submit {
+  text-align: center;
+  background-color: #111;
+  color: white;
+  border: white;
+  font-size: 16px;
+  height: 30px;
+  padding: 2px;
+  width: 8%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  opacity: 0.6; }
+
+/*fotos de ciudades*/
+.index__photo-atenas {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.index__title-atenas {
+  position: absolute;
+  top: 40%;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px; }
+
+.index__photo-jerusalen {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.index__title-jerusalen {
+  position: absolute;
+  top: 40%;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px; }
+
+.index__photo-londres {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.index__title-londres {
+  position: absolute;
+  top: 40%;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px; }
+
+.index__photo-roma {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.index__title-roma {
+  position: absolute;
+  top: 40%;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px; }
+
+.index__photo-tokio {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.index__title-tokio {
+  position: absolute;
+  top: 40%;
+  background: black;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px; }
+
+.cities__index {
+  background-image: url(../images/mapamundo.jpg);
+  padding: 30px;
+  background-attachment: fixed; }
+
+/*galeria*/
+.cities__photos-index {
+  text-align: center; }
+
+.cities___galery {
+  background-image: url(/images/galerybackgorund3.jpg);
+  background-attachment: fixed;
+  padding: 30px; }
+
+.img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: 1s;
+  border-radius: 15px; }
+
+.col-lg-4 {
+  padding: 7px;
+  margin: 0 !important; }
+
+.img:hover {
+  transform: scale(1.05);
+  z-index: 2; }
+
+/*footer homepage*/
+.footer__homepage {
+  width: 100%;
+  padding: 14px;
+  background-color: black;
+  color: white; }
+
+.footer__homepage-contact-container-title {
+  text-align: center; }
+
+.footer__homepage-contact-container-form {
+  margin-top: 20px;
+  text-align: center; }
+
+.footer__homepage-button-submit {
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+  padding: 2px;
+  width: 8%;
+  margin-top: 20px;
+  display: block;
+  margin: auto; }
+
+/*footer*/
+.footer__page-author {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 27px; }
+
+.footer {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  margin-top: auto; }
+
+/*cities atenas*/
+.grid__atenas {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-template-rows: 350px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("../images/atenas.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center; }
+
+.title__atenas {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+.description__atenas {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px; }
+
+/*cities jerusalen*/
+.grid__jerusalen {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-template-rows: 350px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/jerusalen.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center; }
+
+.title__jerusalen {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+.description__jerusalen {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px; }
+
+/*cities londres*/
+.grid__londres {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-template-rows: 350px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/londres2.jpg");
+  background-position: top;
+  background-size: cover;
+  align-items: center; }
+
+.title__londres {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+.description__londres {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px; }
+
+/*cities roma*/
+.grid__roma {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-template-rows: 350px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/roma.jpg");
+  background-position: top;
+  background-size: cover;
+  align-items: center; }
+
+.title__roma {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+.description__roma {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px; }
+
+/*cities tokio*/
+.grid__tokio {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  grid-template-rows: 350px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/tokio.jpg");
+  background-position: top;
+  background-size: cover;
+  align-items: center; }
+
+.title__tokio {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold; }
+
+.description__tokio {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid black;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px; }
+
+/*pagina atenas*/
+.page__atenas {
+  background-image: url("../images/atenas2.jpg");
+  object-fit: cover;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.page__atenas-title {
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 150px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive; }
+
+/*cultura atenas*/
+.culture__atenas {
+  padding: 20px;
+  background-color: black;
+  background-attachment: fixed; }
+
+.culture__atenas-title {
+  color: white;
+  text-align: center; }
+
+.culture__atenas-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/culturaAtenas.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/culturaAtenas.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.culture__atenas-container-description {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities atenas*/
+.activities__atenas-title {
+  color: white;
+  text-align: center; }
+
+/* activities atenas delfos*/
+.activities__atenas-delfos {
+  padding: 20px;
+  background-color: black; }
+
+.activities__atenas-container-delfos {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitAtenasDelfos.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitAtenasDelfos.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__atenas-container-description-delfos {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities atenas hodeon*/
+.activities__atenas-hodeon {
+  padding: 20px;
+  background-color: black; }
+
+.activities__atenas-container-hodeon {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitAtenasHodeondeHerodes.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitAtenasHodeondeHerodes.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__atenas-container-description-hodeon {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities atenas hidra*/
+.activities__atenas-hidra {
+  padding: 20px;
+  background-color: black; }
+
+.activities__atenas-container-hidra {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitAtenasHidra.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitAtenasHidra.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__atenas-container-description-hidra {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities atenas phanatenaic*/
+.activities__atenas-phanatenaic {
+  padding: 20px;
+  background-color: black; }
+
+.activities__atenas-container-phanatenaic {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__atenas-container-description-phanatenaic {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities atenas zeus*/
+.activities__atenas-zeus {
+  padding: 20px;
+  background-color: black; }
+
+.activities__atenas-container-zeus {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitAtenasZeusTemple.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitAtenasZeusTemple.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__atenas-container-description-zeus {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* comidas atenas */
+.food__atenas-title {
+  color: white;
+  text-align: center; }
+
+/* comidas atenas psarosoupa*/
+.food__atenas-Psarosoupa {
+  padding: 20px;
+  background-color: black; }
+
+.food__atenas-container-Psarosoupa {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PsarosoupaAtenas.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PsarosoupaAtenas.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__atenas-container-description-Psarosoupa {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas atenas tyropita*/
+.food__atenas-tyropita {
+  padding: 20px;
+  background-color: black; }
+
+.food__atenas-container-tyropita {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/tyropita.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/tyropita.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__atenas-container-description-tyropita {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas atenas spanakopita */
+.food__atenas-spanakopita {
+  padding: 20px;
+  background-color: black; }
+
+.food__atenas-container-spanakopita {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/spanakopitaAtenas.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/spanakopitaAtenas.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__atenas-container-description-spanakopita {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas atenas dolmades*/
+.food__atenas-dolmades {
+  padding: 20px;
+  background-color: black; }
+
+.food__atenas-container-dolmades {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/dolmadesAtenas.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/dolmadesAtenas.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__atenas-container-description-dolmades {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* pagina jerusalen*/
+.page__jerusalen {
+  background-image: url("../images/jerusalen.jpg");
+  object-fit: cover;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.page__jerusalen-title {
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 150px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive; }
+
+/* cultura jerusalen*/
+.culture__jerusalen {
+  padding: 20px;
+  background-color: black; }
+
+.culture__jerusalen-title {
+  color: white;
+  text-align: center; }
+
+.culture__jerusalen-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/JerusalenCultura.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/JerusalenCultura.jpg");
+  background-attachment: fixed; }
+
+.culture__jerusalen-container-description {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities jerusalen*/
+.activities__jerusalen-title {
+  color: white;
+  text-align: center; }
+
+/* activities jerusalen nazaret*/
+.activities__jerusalen-nazaret {
+  padding: 20px;
+  background-color: black; }
+
+.activities__jerusalen-container-nazaret {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitJerusalenNazaret.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitJerusalenNazaret.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__jerusalen-container-description-nazaret {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities jerusalen petra*/
+.activities__jerusalen-petra {
+  padding: 20px;
+  background-color: black; }
+
+.activities__jerusalen-container-petra {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitJerusalenPetra.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitJerusalenPetra.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__jerusalen-container-description-petra {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities jerusalen santosepulcro*/
+.activities__jerusalen-santosepulcro {
+  padding: 20px;
+  background-color: black; }
+
+.activities__jerusalen-container-santosepulcro {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__jerusalen-container-description-santosepulcro {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* comidas jerusalen*/
+.food__jerusalen-title {
+  color: white;
+  text-align: center; }
+
+/* comidas jerusalen shawarma*/
+.food__jerusalen-shawarma {
+  padding: 20px;
+  background-color: black; }
+
+.food__jerusalen-container-shawarma {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/ShawarmaJerusalen.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/ShawarmaJerusalen.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__jerusalen-container-description-shawarma {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas jerusalen sabichor*/
+.food__jerusalen-sabichor {
+  padding: 20px;
+  background-color: black; }
+
+.food__jerusalen-container-sabichor {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/SabichorSabihJerusalen.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/SabichorSabihJerusalen.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__jerusalen-container-description-sabichor {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas jerusalen labneh */
+.food__jerusalen-labneh {
+  padding: 20px;
+  background-color: black; }
+
+.food__jerusalen-container-labneh {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/LabnehJerusalen.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/LabnehJerusalen.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__jerusalen-container-description-labneh {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas jerusalen halva*/
+.food__jerusalen-halva {
+  padding: 20px;
+  background-color: black; }
+
+.food__jerusalen-container-halva {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/HalvaJerusalen.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/HalvaJerusalen.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__jerusalen-container-description-halva {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*pagina londres*/
+.page__londres {
+  background-image: url("../images/londres.jpg");
+  object-fit: cover;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.page__londres-title {
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 150px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive; }
+
+/*cultura londres*/
+.culture__londres {
+  padding: 20px;
+  background-color: black; }
+
+.culture__londres-title {
+  color: white;
+  text-align: center; }
+
+.culture__londres-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/culturalondres.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/culturalondres.jpg");
+  background-attachment: fixed; }
+
+.culture__londres-container-description {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities londres*/
+.activities__londres-title {
+  color: white;
+  text-align: center; }
+
+/* activities londres londoneye*/
+.activities__londres-londoneye {
+  padding: 20px;
+  background-color: black; }
+
+.activities__londres-container-londoneye {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitLondresLondonEye.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitlondreslondoneye.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__londres-container-description-londoneye {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities londres shard*/
+.activities__londres-shard {
+  padding: 20px;
+  background-color: black; }
+
+.activities__londres-container-shard {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitLondresShard.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitLondresShard.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__londres-container-description-shard {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities londres towers*/
+.activities__londres-towers {
+  padding: 20px;
+  background-color: black; }
+
+.activities__londres-container-towers {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitLondresTorres.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitLondresTorres.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__londres-container-description-towers {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities londres castle*/
+.activities__londres-castle {
+  padding: 20px;
+  background-color: black; }
+
+.activities__londres-container-castle {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitLondresTorresWindorCastle.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitLondresTorresWindorCastle.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__londres-container-description-castle {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* comidas londres*/
+.food__londres-title {
+  color: white;
+  text-align: center; }
+
+/* comidas londres pudding*/
+.food__londres-pudding {
+  padding: 20px;
+  background-color: black; }
+
+.food__londres-padding {
+  padding: 0.005cm; }
+
+.food__londres-container-pudding {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/YorkshirepuddingLondres.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/YorkshirepuddingLondres.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__londres-container-description-pudding {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas londres steak*/
+.food__londres-steak {
+  padding: 20px;
+  background-color: black; }
+
+.food__londres-container-steak {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/SteakandkidneypieLondres.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/SteakandkidneypieLondres.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__londres-container-description-steak {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas londres roastbeef */
+.food__londres-roastbeef {
+  padding: 20px;
+  background-color: black; }
+
+.food__londres-container-roastbeef {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/RoastbeefLondes.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/RoastbeefLondes.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__londres-container-description-roastbeef {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas londres fishandchips*/
+.food__londres-fishandchips {
+  padding: 20px;
+  background-color: black; }
+
+.food__londres-container-fishandchips {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/fishandchipsLondres.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/fishandchipsLondres.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__londres-container-description-fishandchips {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*pagina roma*/
+.page__roma {
+  background-image: url("../images/roma2.jpg");
+  object-fit: cover;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.page__roma-title {
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 150px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive; }
+
+/*cultura roma*/
+.culture__roma {
+  padding: 20px;
+  background-color: black; }
+
+.culture__roma-title {
+  color: white;
+  text-align: center; }
+
+.culture__roma-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/CulturaRoma2.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/CulturaRoma2.jpg");
+  background-attachment: fixed; }
+
+.culture__roma-container-description {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities roma*/
+.activities__roma-title {
+  color: white;
+  text-align: center; }
+
+/* activities roma coliseo*/
+.activities__roma-coliseo {
+  padding: 20px;
+  background-color: black; }
+
+.activities__roma-container-coliseo {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitRomaColiseo.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitRomaColiseo.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__roma-container-description-coliseo {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities roma capillasixtina*/
+.activities__roma-capillasixtina {
+  padding: 20px;
+  background-color: black; }
+
+.activities__roma-container-capillasixtina {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitRomaCapillaSixtina.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitRomaCapillaSixtina.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__roma-container-description-capillasixtina {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities roma costaamalfi*/
+.activities__roma-costaamalfi {
+  padding: 20px;
+  background-color: black; }
+
+.activities__roma-container-costaamalfi {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitRomaCostaAmalfi.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitRomaCostaAmalfi.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__roma-container-description-costaamalfi {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities roma vaticano*/
+.activities__roma-vaticano {
+  padding: 20px;
+  background-color: black; }
+
+.activities__roma-container-vaticano {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitRomaVaticano.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitRomaVaticano.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__roma-container-description-vaticano {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* comidas roma*/
+.food__roma-title {
+  color: white;
+  text-align: center; }
+
+/* comidas roma porchetta*/
+.food__roma-porchetta {
+  padding: 20px;
+  background-color: black; }
+
+.food__roma-container-porchetta {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PORCHETTADIARICCIARoma2.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PORCHETTADIARICCIARoma2.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__roma-container-description-porchetta {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas roma spaghetti*/
+.food__roma-spaghetti {
+  padding: 20px;
+  background-color: black; }
+
+.food__roma-container-spaghetti {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/spaghettiRoma.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/spaghettiRoma.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__roma-container-description-spaghetti {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas roma suppli */
+.food__roma-suppli {
+  padding: 20px;
+  background-color: black; }
+
+.food__roma-container-suppli {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/SUPPLÍALLAROMANARoma.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/SUPPLÍALLAROMANARoma.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__roma-container-description-suppli {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas roma martiozzo*/
+.food__roma-martiozzo {
+  padding: 20px;
+  background-color: black; }
+
+.food__roma-container-martiozzo {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/MARITOZZOCONLAPANNARoma.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/MARITOZZOCONLAPANNARoma.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__roma-container-description-martiozzo {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*pagina tokio*/
+.page__tokio {
+  background-image: url("../images/tokio.jpg");
+  object-fit: cover;
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.page__tokio-title {
+  text-align: center;
+  padding-left: 100px;
+  padding-top: 150px;
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  color: #fff; }
+
+/*cultura tokio*/
+.culture__tokio {
+  padding: 20px;
+  background-color: black; }
+
+.culture__tokio-title {
+  color: white;
+  text-align: center; }
+
+.culture__tokio-container {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/culturaTokio.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/culturaTokio.jpg");
+  background-attachment: fixed; }
+
+.culture__tokio-container-description {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities tokio*/
+.activities__tokio-title {
+  color: white;
+  text-align: center; }
+
+/* activities tokio bay*/
+.activities__tokio-bay {
+  padding: 20px;
+  background-color: black; }
+
+.activities__tokio-container-bay {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitTokioBay.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitTokioBay.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__tokio-container-description-bay {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* activities tokio marmuerto*/
+.activities__tokio-marmuerto {
+  padding: 20px;
+  background-color: black; }
+
+.activities__tokio-container-marmuerto {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitTokioBayMarMuerto.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitTokioBayMarMuerto.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__tokio-container-description-marmuerto {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities tokio shinjuku*/
+.activities__tokio-shinjuku {
+  padding: 20px;
+  background-color: black; }
+
+.activities__tokio-container-shinjuku {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__tokio-container-description-shinjuku {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*activities tokio uenopark*/
+.activities__tokio-uenopark {
+  padding: 20px;
+  background-color: black; }
+
+.activities__tokio-container-uenopark {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/PlacesUMustVisitTokioUenoPark.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/PlacesUMustVisitTokioUenoPark.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.activities__tokio-container-description-uenopark {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/* comidas tokio*/
+.food__tokio-title {
+  color: white;
+  text-align: center; }
+
+/* comidas tokio tamagoyaki*/
+.food__tokio-tamagoyaki {
+  padding: 20px;
+  background-color: black; }
+
+.food__tokio-container-tamagoyaki {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/tamagoyakiTokio.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/tamagoyakiTokio.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__tokio-container-description-tamagoyaki {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas tokio sushi*/
+.food__tokio-sushi {
+  padding: 20px;
+  background-color: black; }
+
+.food__tokio-container-sushi {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/sushiTokio.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/sushiTokio.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__tokio-container-description-sushi {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas tokio ramen */
+.food__tokio-ramen {
+  padding: 20px;
+  background-color: black; }
+
+.food__tokio-container-ramen {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/RamenTokio.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/RamenTokio.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__tokio-container-description-ramen {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*comidas tokio gyoza*/
+.food__tokio-gyoza {
+  padding: 20px;
+  background-color: black; }
+
+.food__tokio-container-gyoza {
+  display: flex;
+  border: 1px solid black;
+  padding: 250px;
+  background-image: url("../images/gyozaTokio.jpg");
+  background-position: top;
+  background-size: cover;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.6)), url("../images/gyozaTokio.jpg");
+  background-attachment: fixed;
+  object-fit: cover;
+  background-repeat: no-repeat; }
+
+.food__tokio-container-description-gyoza {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black; }
+
+/*who are we*/
+.timeline__atenas img {
+  border-radius: 50%;
+  margin-left: 8%;
+  margin-top: -2.5%; }
+
+.timeline__container-atenas-description {
+  float: right;
+  text-align: right;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.35);
+  text-align: justify;
+  color: black;
+  border: 3px solid black;
+  display: inline;
+  position: absolute;
+  border-radius: 50px;
+  margin-top: 0%;
+  margin-right: 10%;
+  margin-left: 10%; }
+
+body {
+  background-image: url(../images/mapamundo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto; }
+
+.container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movedown 1s linear forwards;
+  opacity: 0; }
+
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translateY(-30px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0px); } }
+
+/* animacion de despliegue de ambos (derecha e izquierda) hacia arriba y abajo)*/
+.container:nth-child(1) {
+  animation-delay: 0s; }
+
+.container:nth-child(2) {
+  animation-delay: 1s; }
+
+.container:nth-child(3) {
+  animation-delay: 2s; }
+
+.container:nth-child(4) {
+  animation-delay: 3s; }
+
+.container:nth-child(5) {
+  animation-delay: 4s; }
+
+.text-box {
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px; }
+
+.left-container {
+  left: 0; }
+
+.right-container {
+  left: 50%; }
+
+.container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 27%;
+  right: -20px;
+  top: 32px;
+  z-index: 10; }
+
+.right-container img {
+  left: -20px; }
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards; }
+
+@keyframes moveline {
+  0% {
+    height: 0; }
+  100% {
+    height: 100%; } }
+
+.text-box h2 {
+  font-weight: 600; }
+
+.text-box small {
+  display: inline-block;
+  margin-bottom: 15px; }
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #fff;
+  right: -15px; }
+
+.right-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #fff;
+  left: -15px; }
+
+/*responsive*/
+@media screen and (max-width: 576px) {
+  .grid-img {
+    left: 0; }
+  .timeline {
+    margin: 50px auto; }
+  .timeline::after {
+    left: 31px; }
+  .container {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px; }
+  .text-box {
+    font-size: 13px; }
+  .text-box small {
+    margin-bottom: 10px; }
+  .right-container {
+    left: 0; }
+  .left-container img, .right-container img {
+    left: 10px; }
+  .left-container-arrow, .right-container-arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px; } }
+
+/* imagen y descripcion en who are we*/
+.grid-img {
+  display: grid;
+  border-radius: 20px;
+  border: solid 1px black;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.grid-desc {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 11px;
+  transition: transform 0.3s ease-in-out;
+  border: solid 1px black;
+  height: 250px;
+  font-size: 22px;
+  padding: 8px;
+  text-align: justify;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px; }
+
+.item1 {
+  grid-column-start: 3;
+  grid-column-end: 8;
+  background-image: url(../images/perfil.jpg);
+  text-align: center; }
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 8; }
+
+@media only screen and (max-width: 768px) {
+  .grid__atenas {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    padding: 20px; }
+  .description__atenas {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 20px; }
+  .title__atenas {
+    font-size: 30px;
+    margin: 10px; }
+  .grid__jerusalen {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    padding: 20px; }
+  .description__jerusalen {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 20px; }
+  .title__jerusalen {
+    font-size: 30px;
+    margin: 10px; }
+  .grid__londres {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    padding: 20px; }
+  .description__londres {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 20px; }
+  .title__londres {
+    font-size: 30px;
+    margin: 10px; }
+  .grid__roma {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    padding: 20px; }
+  .description__roma {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 20px; }
+  .title__roma {
+    font-size: 30px;
+    margin: 10px; }
+  .grid__tokio {
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    padding: 20px; }
+  .description__tokio {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 20px; }
+  .title__tokio {
+    font-size: 30px;
+    margin: 10px; }
+  .search {
+    height: 500px; }
+  .bar-btn {
+    display: flex; }
+  .nav__menu {
+    display: none; }
+  .nav__menu li {
+    display: none;
+    line-height: 20px;
+    margin: 30px 0;
+    transition: all .5s; }
+  .nav__menu li a {
+    font-size: 16px; } }
