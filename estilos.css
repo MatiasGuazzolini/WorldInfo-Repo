@@ -822,7 +822,7 @@ a:link {
 /* pagina jerusalen*/
 
 .page__jerusalen{
-    background-image: url('/images/jerusalen.jpg');
+    background-image: url('images/jerusalen.jpg');
     object-fit: cover; 
     height: 900px; 
     width: 100%;
@@ -1104,7 +1104,7 @@ a:link {
 /*pagina londres*/
 
 .page__londres{
-    background-image: url('/images/londres.jpg');
+    background-image: url('images/londres.jpg');
     object-fit: cover; 
     height: 900px; 
     width: 100%;
@@ -1136,10 +1136,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/culturalondres.jpg');
+    background-image: url('images/culturalondres.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/culturalondres.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/culturalondres.jpg') ;
     background-attachment: fixed;
     
 }
@@ -1172,10 +1172,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitLondresLondonEye.jpg');
+    background-image: url('images/PlacesUMustVisitLondresLondonEye.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitlondreslondoneye.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitlondreslondoneye.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1203,10 +1203,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitLondresShard.jpg');
+    background-image: url('images/PlacesUMustVisitLondresShard.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitLondresShard.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitLondresShard.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1234,10 +1234,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitLondresTorres.jpg');
+    background-image: url('images/PlacesUMustVisitLondresTorres.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitLondresTorres.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitLondresTorres.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1265,10 +1265,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitLondresTorresWindorCastle.jpg');
+    background-image: url('images/PlacesUMustVisitLondresTorresWindorCastle.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitLondresTorresWindorCastle.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitLondresTorresWindorCastle.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1307,10 +1307,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/YorkshirepuddingLondres.jpg');
+    background-image: url('images/YorkshirepuddingLondres.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/YorkshirepuddingLondres.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/YorkshirepuddingLondres.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1338,10 +1338,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/SteakandkidneypieLondres.jpg');
+    background-image: url('images/SteakandkidneypieLondres.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/SteakandkidneypieLondres.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/SteakandkidneypieLondres.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1368,10 +1368,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/RoastbeefLondes.jpg');
+    background-image: url('images/RoastbeefLondes.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/RoastbeefLondes.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/RoastbeefLondes.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1399,10 +1399,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/fishandchipsLondres.jpg');
+    background-image: url('images/fishandchipsLondres.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/fishandchipsLondres.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/fishandchipsLondres.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1422,7 +1422,7 @@ a:link {
 /*pagina roma*/
 
 .page__roma{
-    background-image: url('/images/roma2.jpg');
+    background-image: url('images/roma2.jpg');
     object-fit: cover; 
     height: 900px; 
     width: 100%;
@@ -1454,10 +1454,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/CulturaRoma2.jpg');
+    background-image: url('images/CulturaRoma2.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/CulturaRoma2.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/CulturaRoma2.jpg') ;
     background-attachment: fixed;
     
 }
@@ -1490,10 +1490,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitRomaColiseo.jpg');
+    background-image: url('images/PlacesUMustVisitRomaColiseo.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaColiseo.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitRomaColiseo.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1521,10 +1521,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitRomaCapillaSixtina.jpg');
+    background-image: url('images/PlacesUMustVisitRomaCapillaSixtina.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaCapillaSixtina.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitRomaCapillaSixtina.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1553,10 +1553,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitRomaCostaAmalfi.jpg');
+    background-image: url('images/PlacesUMustVisitRomaCostaAmalfi.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaCostaAmalfi.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitRomaCostaAmalfi.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1584,10 +1584,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitRomaVaticano.jpg');
+    background-image: url('images/PlacesUMustVisitRomaVaticano.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitRomaVaticano.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitRomaVaticano.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1623,10 +1623,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PORCHETTADIARICCIARoma2.jpg');
+    background-image: url('images/PORCHETTADIARICCIARoma2.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PORCHETTADIARICCIARoma2.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PORCHETTADIARICCIARoma2.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1654,10 +1654,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/spaghettiRoma.jpg');
+    background-image: url('images/spaghettiRoma.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/spaghettiRoma.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/spaghettiRoma.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1684,10 +1684,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/SUPPLÍALLAROMANARoma.jpg');
+    background-image: url('images/SUPPLÍALLAROMANARoma.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/SUPPLÍALLAROMANARoma.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/SUPPLÍALLAROMANARoma.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1715,10 +1715,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/MARITOZZOCONLAPANNARoma.jpg');
+    background-image: url('images/MARITOZZOCONLAPANNARoma.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/MARITOZZOCONLAPANNARoma.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/MARITOZZOCONLAPANNARoma.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1738,7 +1738,7 @@ a:link {
 /*pagina tokio*/
 
 .page__tokio{
-    background-image: url('/images/tokio.jpg');
+    background-image: url('images/tokio.jpg');
     object-fit: cover; 
     height: 900px; 
     width: 100%;
@@ -1771,10 +1771,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/culturaTokio.jpg');
+    background-image: url('images/culturaTokio.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/culturaTokio.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/culturaTokio.jpg') ;
     background-attachment: fixed;
     
 }
@@ -1807,10 +1807,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitTokioBay.jpg');
+    background-image: url('images/PlacesUMustVisitTokioBay.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioBay.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitTokioBay.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1838,10 +1838,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitTokioBayMarMuerto.jpg');
+    background-image: url('images/PlacesUMustVisitTokioBayMarMuerto.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioBayMarMuerto.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitTokioBayMarMuerto.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1869,10 +1869,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg');
+    background-image: url('images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1900,10 +1900,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitTokioUenoPark.jpg');
+    background-image: url('images/PlacesUMustVisitTokioUenoPark.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitTokioUenoPark.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitTokioUenoPark.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1939,10 +1939,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/tamagoyakiTokio.jpg');
+    background-image: url('images/tamagoyakiTokio.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/tamagoyakiTokio.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/tamagoyakiTokio.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1970,10 +1970,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/sushiTokio.jpg');
+    background-image: url('images/sushiTokio.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/sushiTokio.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/sushiTokio.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -2000,10 +2000,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/RamenTokio.jpg');
+    background-image: url('images/RamenTokio.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/RamenTokio.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/RamenTokio.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -2031,10 +2031,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/gyozaTokio.jpg');
+    background-image: url('images/gyozaTokio.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/gyozaTokio.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/gyozaTokio.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
