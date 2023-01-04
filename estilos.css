@@ -468,7 +468,7 @@ a:link {
 /*pagina atenas*/
 
 .page__atenas{
-    background-image: url('/images/atenas2.jpg');
+    background-image: url('images/atenas2.jpg');
     object-fit: cover; 
     height: 900px; 
     width: 100%;
@@ -501,10 +501,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/culturaAtenas.jpg');
+    background-image: url('images/culturaAtenas.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/culturaAtenas.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/culturaAtenas.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -541,10 +541,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitAtenasDelfos.jpg');
+    background-image: url('images/PlacesUMustVisitAtenasDelfos.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasDelfos.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitAtenasDelfos.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -573,10 +573,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitAtenasHodeondeHerodes.jpg');
+    background-image: url('images/PlacesUMustVisitAtenasHodeondeHerodes.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasHodeondeHerodes.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitAtenasHodeondeHerodes.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -604,10 +604,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitAtenasHidra.jpg');
+    background-image: url('images/PlacesUMustVisitAtenasHidra.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasHidra.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitAtenasHidra.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -635,10 +635,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg');
+    background-image: url('images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -666,10 +666,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PlacesUMustVisitAtenasZeusTemple.jpg');
+    background-image: url('images/PlacesUMustVisitAtenasZeusTemple.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PlacesUMustVisitAtenasZeusTemple.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PlacesUMustVisitAtenasZeusTemple.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -704,10 +704,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/PsarosoupaAtenas.jpg');
+    background-image: url('images/PsarosoupaAtenas.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/PsarosoupaAtenas.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/PsarosoupaAtenas.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -735,10 +735,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/tyropita.jpg');
+    background-image: url('images/tyropita.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/tyropita.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/tyropita.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -766,10 +766,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/spanakopitaAtenas.jpg');
+    background-image: url('images/spanakopitaAtenas.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/spanakopitaAtenas.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/spanakopitaAtenas.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -796,10 +796,10 @@ a:link {
     display: flex;
     border:1px solid black;
     padding:250px;
-    background-image: url('/images/dolmadesAtenas.jpg');
+    background-image: url('images/dolmadesAtenas.jpg');
     background-position: top;
     background-size: cover;
-    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('/images/dolmadesAtenas.jpg') ;
+    background: linear-gradient(to left, rgba(0 0 0 / .125), rgba(0 0 0 / .6)), url('images/dolmadesAtenas.jpg') ;
     background-attachment: fixed;
     object-fit: cover;
     background-repeat: no-repeat;
