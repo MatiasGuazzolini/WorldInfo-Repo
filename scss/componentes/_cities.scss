@@ -1,0 +1,141 @@
+/*cities atenas*/
+
+.grid__atenas {
+    display: grid;   
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 350px;
+    background: $sombra, url('../images/atenas.jpg');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+  }
+
+.title__atenas {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.description__atenas {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*cities jerusalen*/
+
+.grid__jerusalen {
+    display: grid;   
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 350px;
+    background: $sombra, url('../images/jerusalen.jpg');
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+  }
+
+.title__jerusalen {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.description__jerusalen {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*cities londres*/
+
+.grid__londres {
+    display: grid;   
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 350px;
+    background: $sombra, url('../images/londres2.jpg');
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+  }
+
+.title__londres {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.description__londres {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*cities roma*/
+
+.grid__roma {
+    display: grid;   
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 350px;
+    background: $sombra, url('../images/roma.jpg');
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+  }
+
+.title__roma {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.description__roma {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*cities tokio*/
+ 
+.grid__tokio {
+    display: grid;   
+    grid-template-columns: 20% 70%;
+    grid-template-rows: 350px;
+    background: $sombra, url('../images/tokio.jpg');
+    background-position: top;
+    background-size: cover;
+    align-items: center;
+  }
+
+.title__tokio {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.description__tokio {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 3px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+

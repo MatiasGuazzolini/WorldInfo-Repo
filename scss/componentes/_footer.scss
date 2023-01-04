@@ -1,0 +1,51 @@
+/*footer homepage*/
+
+.footer__homepage{
+    width: 100%;
+    padding: 14px;
+    background-color: black;
+    color: white;
+
+    &-contact-container-title{
+        text-align: center;
+    }
+
+    &-contact-container-form{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+.footer__homepage-button-submit{
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    padding: 2px;
+    width: 8%;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+/*footer*/
+
+.footer__page-author{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 27px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+
+}

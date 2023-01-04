@@ -1,0 +1,353 @@
+/*pagina atenas*/
+
+.page__atenas{
+    background-image: url('../images/atenas2.jpg');
+    object-fit: cover; 
+    height: 900px; 
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &-title{
+        text-align: center;
+        padding-left: 100px;
+        padding-top: 150px;
+        font-size: 100px;
+        font-family: 'Pacifico', cursive;
+    }
+
+}
+
+/*cultura atenas*/
+
+.culture__atenas{
+    padding: 20px;
+    background-color: black;
+    background-attachment: fixed;
+
+    &-title{
+        color: white;
+        text-align: center;
+    }
+
+    &-container{
+        display: flex;
+        border:1px solid black;
+        padding:250px;
+        background-image: url('../images/culturaAtenas.jpg');
+        background-position: top;
+        background-size: cover;
+        background: $sombra, url('../images/culturaAtenas.jpg') ;
+        background-attachment: fixed;
+        object-fit: cover;
+        background-repeat: no-repeat;
+
+        &-description{
+            float: right;
+            text-align: right;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.35);
+            text-align: justify;
+            color: black;
+            border: 3px solid black;
+        }
+
+    }
+
+}
+
+/* activities atenas*/
+
+.activities__atenas-title{
+    color: white;
+    text-align: center;
+}
+
+/* activities atenas delfos*/
+
+.activities__atenas-delfos{
+    padding: 20px;
+    background-color: black;
+    
+}
+
+.activities__atenas-container-delfos{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/PlacesUMustVisitAtenasDelfos.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/PlacesUMustVisitAtenasDelfos.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
+    
+}
+
+.activities__atenas-container-description-delfos{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/* activities atenas hodeon*/
+
+.activities__atenas-hodeon{
+    padding: 20px;
+    background-color: black;
+}
+
+.activities__atenas-container-hodeon{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/PlacesUMustVisitAtenasHodeondeHerodes.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/PlacesUMustVisitAtenasHodeondeHerodes.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.activities__atenas-container-description-hodeon{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/*activities atenas hidra*/
+
+.activities__atenas-hidra{
+    padding: 20px;
+    background-color: black;
+}
+
+.activities__atenas-container-hidra{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/PlacesUMustVisitAtenasHidra.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/PlacesUMustVisitAtenasHidra.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.activities__atenas-container-description-hidra{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/*activities atenas phanatenaic*/
+
+.activities__atenas-phanatenaic{
+    padding: 20px;
+    background-color: black;
+}
+
+.activities__atenas-container-phanatenaic{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/PlacesUMustVisitAtenasPanathenaicStadiumAtenas.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.activities__atenas-container-description-phanatenaic{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/*activities atenas zeus*/
+
+.activities__atenas-zeus{
+    padding: 20px;
+    background-color: black;
+}
+
+.activities__atenas-container-zeus{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/PlacesUMustVisitAtenasZeusTemple.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/PlacesUMustVisitAtenasZeusTemple.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.activities__atenas-container-description-zeus{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/* comidas atenas */
+
+.food__atenas-title{
+    color: white;
+    text-align: center;
+}
+
+/* comidas atenas psarosoupa*/
+
+.food__atenas-Psarosoupa{
+    padding: 20px;
+    background-color: black;
+}
+
+.food__atenas-container-Psarosoupa{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/PsarosoupaAtenas.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/PsarosoupaAtenas.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.food__atenas-container-description-Psarosoupa{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/*comidas atenas tyropita*/
+
+.food__atenas-tyropita{
+    padding: 20px;
+    background-color: black;
+}
+
+.food__atenas-container-tyropita{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/tyropita.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/tyropita.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.food__atenas-container-description-tyropita{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/*comidas atenas spanakopita */
+
+.food__atenas-spanakopita{
+    padding: 20px;
+    background-color: black;
+}
+
+.food__atenas-container-spanakopita{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/spanakopitaAtenas.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/spanakopitaAtenas.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.food__atenas-container-description-spanakopita{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+
+/*comidas atenas dolmades*/
+.food__atenas-dolmades{
+    padding: 20px;
+    background-color: black;
+}
+
+.food__atenas-container-dolmades{
+    display: flex;
+    border:1px solid black;
+    padding:250px;
+    background-image: url('../images/dolmadesAtenas.jpg');
+    background-position: top;
+    background-size: cover;
+    background: $sombra, url('../images/dolmadesAtenas.jpg') ;
+    background-attachment: fixed;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.food__atenas-container-description-dolmades{
+    float: right;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    text-align: justify;
+    color: black;
+    border: 3px solid black;
+}
+

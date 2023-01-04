@@ -1,0 +1,77 @@
+/*navbar*/
+
+.header_nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo img{
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.bar-btn{
+    display: none;
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer; 
+}
+
+.nav__menu{
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    text-align: center;
+    transition: none;
+}
+
+.nav__menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 40px;
+    transition: none;
+}
+
+.nav__menu li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}    
+
+.nav__menu li a.active, .nav__menu li a:hover{
+    color: aquamarine;
+    transition: .3s;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav__menu{
+    height: 250px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    background: black;
+    text-align: center;
+    transition: all .5s;
+}
+
+
+#check:checked ~ .nav__menu li{
+    display: block;
+}
