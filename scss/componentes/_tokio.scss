@@ -1,315 +1,265 @@
-/*pagina tokio*/
+/* tokio */
 
-.page__tokio{
-    background-image: url('../images/tokio.jpg');
-    object-fit: cover; 
-    height: 900px; 
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.page__tokio-title {
+.tokio__info-title{
+    display: grid;
+    color: black;
     text-align: center;
-    padding-left: 100px;
-    padding-top: 150px;
+    font-weight: bold;
+  }
+  
+  /* Titulo */
+  
+  .tokio__title{
+    display: grid;
+    color: black;
+    background-image: url("../images/tokio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    line-height: 1000px;
     font-size: 100px;
     font-family: 'Pacifico', cursive;
-    color: #fff;
-}
-
-/*cultura tokio*/
-
-.culture__tokio{
-    padding: 20px;
-    background-color: black;
-}
-
-.culture__tokio-title{
+    }
+/* Cultura */
+.tokio__culture {
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-.culture__tokio-container{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/culturaTokio.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/culturaTokio.jpg') ;
-    background-attachment: fixed;
-    
-}
-
-.culture__tokio-container-description{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
-
-/* activities tokio*/
-
-.activities__tokio-title{
+.tokio__culture-description{
+    display: grid;
     color: white;
-    text-align: center;
-}
-
-/* activities tokio bay*/
-
-.activities__tokio-bay{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__tokio-container-bay{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitTokioBay.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitTokioBay.jpg') ;
+    background: $sombra, url("../images/culturaTokio.jpg");
     background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__tokio-container-description-bay{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* activities tokio marmuerto*/
-
-.activities__tokio-marmuerto{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__tokio-container-marmuerto{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitTokioBayMarMuerto.jpg');
-    background-position: top;
     background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitTokioBayMarMuerto.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    padding: 160px;
+    height: 500px;
+            &-text{
+                background-color: rgba(255, 255, 255, 0.35);
+                color: black;
+                border: 3px solid black; 
+                padding: 10px;
+                text-align: justify;
+                font-size: 25px;
+                font-weight: bold;
+                overflow-x: hidden;
+                overflow-y: auto;
+              } 
+}
     
-}
-
-.activities__tokio-container-description-marmuerto{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities tokio shinjuku*/
-
-.activities__tokio-shinjuku{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__tokio-container-shinjuku{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__tokio-container-description-shinjuku{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities tokio uenopark*/
-
-.activities__tokio-uenopark{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__tokio-container-uenopark{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitTokioUenoPark.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitTokioUenoPark.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__tokio-container-description-uenopark{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* comidas tokio*/
-
-.food__tokio-title{
+  
+  
+  /* Actividades */
+  
+  .tokio__activities{
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-/* comidas tokio tamagoyaki*/
-
-.food__tokio-tamagoyaki{
-    padding: 20px;
-    background-color: black;
-}
-
-
-.food__tokio-container-tamagoyaki{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/tamagoyakiTokio.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/tamagoyakiTokio.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__tokio-container-description-tamagoyaki{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas tokio sushi*/
-
-.food__tokio-sushi{
-    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* Tokio Bay */
+    &-bay{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitTokioBay.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* Mar muerto */
+    &-marmuerto{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitTokioBayMarMuerto.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* shinjuku */
+    &-shinjuku{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitTokioShinjukuGyoenNationalPark.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+      /* uenopark */
+    &-uenopark{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitTokioUenoPark.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+  }
+      /* Comidas */
+  .tokio__comida{
+    display: grid;
+    color: white;
     background-color: black;
-}
-
-.food__tokio-container-sushi{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/sushiTokio.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/sushiTokio.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__tokio-container-description-sushi{
-    float: right;
-    text-align: right;
+    text-align: center;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas tokio ramen */
-.food__tokio-ramen{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__tokio-container-ramen{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/RamenTokio.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/RamenTokio.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__tokio-container-description-ramen{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas tokio gyoza*/
-
-.food__tokio-gyoza{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__tokio-container-gyoza{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/gyozaTokio.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/gyozaTokio.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__tokio-container-description-gyoza{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* tamagoyaki */
+    &-tamagoyaki{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/tamagoyakiTokio.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*sushi*/
+    &-sushi{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/sushiTokio.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*ramen*/
+    &-ramen{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/RamenTokio.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*gyoza*/
+    &-gyoza{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/gyozaTokio.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+  }
+  

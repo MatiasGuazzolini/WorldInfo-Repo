@@ -1,317 +1,264 @@
-/*pagina londres*/
+/* londres */
 
-.page__londres{
-    background-image: url('../images/londres.jpg');
-    object-fit: cover; 
-    height: 900px; 
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.page__londres-title {
+.londres__info-title{
+    display: grid;
+    color: black;
     text-align: center;
-    padding-left: 100px;
-    padding-top: 150px;
+    font-weight: bold;
+  }
+  
+  /* Titulo */
+  
+  .londres__title{
+    display: grid;
+    color: black;
+    background-image: url("../images/londres.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    line-height: 1000px;
     font-size: 100px;
     font-family: 'Pacifico', cursive;
 }
-
-/*cultura londres*/
-
-.culture__londres{
-    padding: 20px;
-    background-color: black;
-}
-
-.culture__londres-title{
+/* Cultura */
+.londres__culture {
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-.culture__londres-container{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/culturalondres.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/culturalondres.jpg') ;
-    background-attachment: fixed;
-    
-}
-
-.culture__londres-container-description{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
-
-/* activities londres*/
-
-.activities__londres-title{
+.londres__culture-description{
+    display: grid;
     color: white;
-    text-align: center;
-}
-
-/* activities londres londoneye*/
-
-.activities__londres-londoneye{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__londres-container-londoneye{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitLondresLondonEye.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitlondreslondoneye.jpg') ;
+    background: $sombra, url("../images/culturalondres.jpg");
     background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__londres-container-description-londoneye{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* activities londres shard*/
-
-.activities__londres-shard{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__londres-container-shard{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitLondresShard.jpg');
-    background-position: top;
     background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitLondresShard.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
+    background-position: center;
+    padding: 160px;
+    height: 500px;
+            &-text{
+                background-color: rgba(255, 255, 255, 0.35);
+                color: black;
+                border: 3px solid black; 
+                padding: 10px;
+                text-align: justify;
+                font-size: 25px;
+                font-weight: bold;
+                overflow-x: hidden;
+                overflow-y: auto;
+              } 
 }
-
-.activities__londres-container-description-shard{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities londres towers*/
-
-.activities__londres-towers{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__londres-container-towers{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitLondresTorres.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitLondresTorres.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__londres-container-description-towers{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities londres castle*/
-
-.activities__londres-castle{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__londres-container-castle{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitLondresTorresWindorCastle.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitLondresTorresWindorCastle.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__londres-container-description-castle{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* comidas londres*/
-
-.food__londres-title{
+  
+  /* Actividades */
+  
+  .londres__activities{
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-/* comidas londres pudding*/
-
-.food__londres-pudding{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__londres-padding{
-    padding: 0.005cm;
-}
-
-.food__londres-container-pudding{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/YorkshirepuddingLondres.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/YorkshirepuddingLondres.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__londres-container-description-pudding{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas londres steak*/
-
-.food__londres-steak{
-    padding: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* London Eye */
+    &-londoneye{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitLondresLondonEye.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* Shard */
+    &-shard{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitLondresShard.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* London Towers */
+    &-towers{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitLondresTorres.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+      /* Castle */
+    &-castle{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitLondresTorresWindorCastle.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+   
+  }
+   /* Comidas */
+  .londres__comida{
+    display: grid;
+    color: white;
     background-color: black;
-}
-
-.food__londres-container-steak{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/SteakandkidneypieLondres.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/SteakandkidneypieLondres.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__londres-container-description-steak{
-    float: right;
-    text-align: right;
+    text-align: center;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas londres roastbeef */
-.food__londres-roastbeef{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__londres-container-roastbeef{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/RoastbeefLondes.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/RoastbeefLondes.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__londres-container-description-roastbeef{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas londres fishandchips*/
-
-.food__londres-fishandchips{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__londres-container-fishandchips{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/fishandchipsLondres.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/fishandchipsLondres.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__londres-container-description-fishandchips{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* Pudding */
+    &-pudding{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/YorkshirepuddingLondres.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*steak*/
+    &-steak{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/SteakandkidneypieLondres.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*roastbeef*/
+    &-roastbeef{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/RoastbeefLondes.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*Fish and chips*/
+    &-fishandchips{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/fishandchipsLondres.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+  }
+  

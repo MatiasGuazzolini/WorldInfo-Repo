@@ -1,315 +1,265 @@
-/*pagina roma*/
+/* roma */
 
-.page__roma{
-    background-image: url('../images/roma2.jpg');
-    object-fit: cover; 
-    height: 900px; 
-    width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.page__roma-title {
+.roma__info-title{
+    display: grid;
+    color: black;
     text-align: center;
-    padding-left: 100px;
-    padding-top: 150px;
+    font-weight: bold;
+  }
+  
+  /* Titulo */
+  
+  .roma__title{
+    display: grid;
+    color: black;
+    background-image: url("../images/roma2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    line-height: 1000px;
     font-size: 100px;
     font-family: 'Pacifico', cursive;
 }
-
-/*cultura roma*/
-
-.culture__roma{
-    padding: 20px;
-    background-color: black;
-}
-
-.culture__roma-title{
+/* Cultura */
+.roma__culture {
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-.culture__roma-container{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/CulturaRoma2.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/CulturaRoma2.jpg') ;
-    background-attachment: fixed;
-    
-}
-
-.culture__roma-container-description{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
-
-/* activities roma*/
-
-.activities__roma-title{
+.roma__culture-description{
+    display: grid;
     color: white;
-    text-align: center;
-}
-
-/* activities roma coliseo*/
-
-.activities__roma-coliseo{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__roma-container-coliseo{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitRomaColiseo.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitRomaColiseo.jpg') ;
+    background: $sombra, url("../images/CulturaRoma2.jpg");
     background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__roma-container-description-coliseo{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* activities roma capillasixtina*/
-
-.activities__roma-capillasixtina{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__roma-container-capillasixtina{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitRomaCapillaSixtina.jpg');
-    background-position: top;
     background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitRomaCapillaSixtina.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
+    background-position: center;
+    padding: 160px;
+    height: 500px;
+            &-text{
+                background-color: rgba(255, 255, 255, 0.35);
+                color: black;
+                border: 3px solid black; 
+                padding: 10px;
+                text-align: justify;
+                font-size: 25px;
+                font-weight: bold;
+                overflow-x: hidden;
+                overflow-y: auto;
+              } 
 }
-
-.activities__roma-container-description-capillasixtina{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities roma costaamalfi*/
-
-.activities__roma-costaamalfi{
-    padding: 20px;
-    background-color: black;
-}
-
-
-.activities__roma-container-costaamalfi{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitRomaCostaAmalfi.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitRomaCostaAmalfi.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__roma-container-description-costaamalfi{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities roma vaticano*/
-
-.activities__roma-vaticano{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__roma-container-vaticano{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitRomaVaticano.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitRomaVaticano.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__roma-container-description-vaticano{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* comidas roma*/
-
-.food__roma-title{
+  
+  /* Actividades */
+  
+  .roma__activities{
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-
-/* comidas roma porchetta*/
-
-.food__roma-porchetta{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__roma-container-porchetta{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PORCHETTADIARICCIARoma2.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PORCHETTADIARICCIARoma2.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__roma-container-description-porchetta{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* Coliseo */
+    &-coliseo{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitRomaColiseo.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* Capilla Sixtina */
+    &-capillasixtina{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitRomaCapillaSixtina.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* Costa Amalfi */
+    &-amalfi{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitRomaCostaAmalfi.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+      /* vaticano */
+    &-vaticano{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitRomaVaticano.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
 
-/*comidas roma spaghetti*/
-
-.food__roma-spaghetti{
-    padding: 20px;
+  }
+  
+    /* Comidas */
+  .roma__comida{
+    display: grid;
+    color: white;
     background-color: black;
-}
-
-.food__roma-container-spaghetti{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/spaghettiRoma.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/spaghettiRoma.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__roma-container-description-spaghetti{
-    float: right;
-    text-align: right;
+    text-align: center;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas roma suppli */
-.food__roma-suppli{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__roma-container-suppli{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/SUPPLÍALLAROMANARoma.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/SUPPLÍALLAROMANARoma.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__roma-container-description-suppli{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas roma martiozzo*/
-
-.food__roma-martiozzo{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__roma-container-martiozzo{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/MARITOZZOCONLAPANNARoma.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/MARITOZZOCONLAPANNARoma.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__roma-container-description-martiozzo{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* porchetta */
+    &-porchetta{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PORCHETTADIARICCIARoma2.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*spaghetti*/
+    &-spaghetti{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/spaghettiRoma.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*suppli*/
+    &-suppli{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/SUPPLÍALLAROMANARoma.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*martiozzo*/
+    &-martiozzo{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/MARITOZZOCONLAPANNARoma.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+  }
+  

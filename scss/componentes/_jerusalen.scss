@@ -1,286 +1,242 @@
+/* jerusalen */
 
-/* pagina jerusalen*/
-
-.page__jerusalen{
-    background-image: url('../images/jerusalen.jpg');
-    object-fit: cover; 
-    height: 900px; 
+.jerusalen__info-title{
+    display: grid;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Titulo */
+  
+  .jerusalen__title{
+    display: grid;
+    color: black;
+    background-image: url("../images/jerusalen.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1000px;
     width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
+    text-align: center;
+    line-height: 1000px;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+  } 
 
-    &-title{
-        text-align: center;
-        padding-left: 100px;
-        padding-top: 150px;
-        font-size: 100px;
-        font-family: 'Pacifico', cursive;
-    }
-
-
-}
-
-
-/* cultura jerusalen*/
-
-.culture__jerusalen{
-    padding: 20px;
+    /* Cultura */
+ .jerusalen__culture {
+    display: grid;
+    color: white;
     background-color: black;
-
-    &-title{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+.jerusalen__culture-description{
+    display: grid;
+    color: white;
+    background: $sombra, url("../images/JerusalenCultura.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 160px;
+    height: 500px;
+            &-text{
+                background-color: rgba(255, 255, 255, 0.35);
+                color: black;
+                border: 3px solid black; 
+                padding: 10px;
+                text-align: justify;
+                font-size: 25px;
+                font-weight: bold;
+                overflow-x: hidden;
+                overflow-y: auto;
+              } 
+}
+  
+  /* Actividades */
+  
+  .jerusalen__activities{
+    display: grid;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* Nazaret */
+    &-nazaret{
+        display: grid;
         color: white;
-        text-align: center;
-    }
-
-    &-container{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/JerusalenCultura.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/JerusalenCultura.jpg') ;
-    background-attachment: fixed;
-    
-        &-description{
-            float: right;
-            text-align: right;
-            padding: 10px;
+        background: $sombra, url("../images/PlacesUMustVisitJerusalenNazaret.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
             background-color: rgba(255, 255, 255, 0.35);
-            text-align: justify;
             color: black;
-            border: 3px solid black;
-        }
-
-    }
-
-}
-
-/* activities jerusalen*/
-
-.activities__jerusalen-title{
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* Petra */
+    &-petra{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitJerusalenPetra.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /* Santo Sepulcro */
+    &-santosepulcro{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    
+  }
+  
+  /* Comidas */
+  .jerusalen__comida{
+    display: grid;
     color: white;
+    background-color: black;
     text-align: center;
-}
-
-/* activities jerusalen nazaret*/
-
-.activities__jerusalen-nazaret{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__jerusalen-container-nazaret{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitJerusalenNazaret.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitJerusalenNazaret.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__jerusalen-container-description-nazaret{
-    float: right;
-    text-align: right;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* activities jerusalen petra*/
-
-.activities__jerusalen-petra{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__jerusalen-container-petra{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitJerusalenPetra.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitJerusalenPetra.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__jerusalen-container-description-petra{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*activities jerusalen santosepulcro*/
-
-.activities__jerusalen-santosepulcro{
-    padding: 20px;
-    background-color: black;
-}
-
-.activities__jerusalen-container-santosepulcro{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/PlacesUMustVisitJerusalenSantoSepulcroChurch.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.activities__jerusalen-container-description-santosepulcro{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/* comidas jerusalen*/
-
-.food__jerusalen-title{
-    color: white;
-    text-align: center;
-}
-
-/* comidas jerusalen shawarma*/
-
-.food__jerusalen-shawarma{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__jerusalen-container-shawarma{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/ShawarmaJerusalen.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/ShawarmaJerusalen.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__jerusalen-container-description-shawarma{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas jerusalen sabichor*/
-
-.food__jerusalen-sabichor{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__jerusalen-container-sabichor{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/SabichorSabihJerusalen.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/SabichorSabihJerusalen.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__jerusalen-container-description-sabichor{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas jerusalen labneh */
-.food__jerusalen-labneh{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__jerusalen-container-labneh{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/LabnehJerusalen.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/LabnehJerusalen.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__jerusalen-container-description-labneh{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
-
-/*comidas jerusalen halva*/
-.food__jerusalen-halva{
-    padding: 20px;
-    background-color: black;
-}
-
-.food__jerusalen-container-halva{
-    display: flex;
-    border:1px solid black;
-    padding:250px;
-    background-image: url('../images/HalvaJerusalen.jpg');
-    background-position: top;
-    background-size: cover;
-    background: $sombra, url('../images/HalvaJerusalen.jpg') ;
-    background-attachment: fixed;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    
-}
-
-.food__jerusalen-container-description-halva{
-    float: right;
-    text-align: right;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.35);
-    text-align: justify;
-    color: black;
-    border: 3px solid black;
-}
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    /* Shawarma */
+    &-shawarma{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/ShawarmaJerusalen.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*Sabichor*/
+    &-sabichor{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/SabichorSabihJerusalen.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*Labneh*/
+    &-labneh{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/LabnehJerusalen.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+    /*Halva*/
+    &-halva{
+        display: grid;
+        color: white;
+        background: $sombra, url("../images/HalvaJerusalen.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        padding: 160px;
+        height: 500px;
+        &-text{
+            display: grid;
+            background-color: rgba(255, 255, 255, 0.35);
+            color: black;
+            border: 3px solid black; 
+            padding: 10px;
+            text-align: justify;
+            font-size: 25px;
+            font-weight: bold;
+            overflow-x: hidden;
+            overflow-y: auto;
+          }
+      }
+  }

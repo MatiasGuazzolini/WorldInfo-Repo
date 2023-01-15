@@ -105,6 +105,503 @@
     .nav__menu li a{
         font-size: 16px;
     }
+    /* Atenas responsive */
+
+  .atenas__title {
+    height: 500px; 
+    line-height: 400px;
+    font-size: 80px;
+  }
+
+  .atenas__culture{
+    padding: 8px;
+    font-size: 25px;
+    &-description{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          } 
+      }
+  }
+
+
+  .atenas__activities{
+    padding: 8px;
+    font-size: 25px;
+    &-delfos{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-hodeon{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-hidra{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &--phanatenaic{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-zeus{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+        
+      }
+  }
+
+  .atenas__comida{
+    padding: 8px;
+    font-size: 25px;
+    &-psarosoupa{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-tyropita{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-spanakopita{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-dolmades{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+  }
+    /* Jerusalen responsive */
+
+    .jerusalen__title {
+        height: 500px; 
+        line-height: 400px;
+        font-size: 80px;
+      }
+    
+      .jerusalen__culture{
+        padding: 8px;
+        font-size: 25px;
+        &-description{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              } 
+          }
+      }
+    
+    
+      .jerusalen__activities{
+        padding: 8px;
+        font-size: 25px;
+        &-nazaret{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-petra{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-santosepulcro{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+       
+      }
+    
+      .jerusalen__comida{
+        padding: 8px;
+        font-size: 25px;
+        &-shawarma{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-sabichor{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-labneh{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-halva{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        }
+    }
+        /* Londres responsive */
+
+    .londres__title {
+        height: 500px; 
+        line-height: 400px;
+        font-size: 80px;
+      }
+    
+      .londres__culture{
+        padding: 8px;
+        font-size: 25px;
+        &-description{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              } 
+          }
+      }
+    
+    
+      .londres__activities{
+        padding: 8px;
+        font-size: 25px;
+        &-nazaret{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-londoneye{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-shard{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+       
+      }
+        &-towers{
+          padding: 90px;
+          height: 300px;
+          &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+   
+        }
+        &-castle{
+            padding: 90px;
+            height: 300px;
+            &-text{
+              padding: 8px;
+              font-size: 20px;
+            }
+     
+          }
+    
+      .londres__comida{
+        padding: 8px;
+        font-size: 25px;
+        &-pudding{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-steak{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-roastbeef{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-fishandchips{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        }
+    }
+        /* Roma responsive */
+
+    .roma {
+        height: 500px; 
+        line-height: 400px;
+        font-size: 80px;
+        }
+        
+        .roma__culture{
+        padding: 8px;
+        font-size: 25px;
+        &-description{
+            padding: 90px;
+            height: 300px;
+            &-text{
+            padding: 8px;
+            font-size: 20px;
+                  } 
+              }
+          }
+        
+        
+        .roma__activities{
+        padding: 8px;
+        font-size: 25px;
+        &-coliseo{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+                }
+              }
+        &-capillasixtina{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+                }
+              }
+        &-amalfi{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+                }
+           
+          }
+        &-vaticano{
+            padding: 90px;
+            height: 300px;
+            &-text{
+            padding: 8px;
+            font-size: 20px;
+            }
+       
+            }
+            
+        
+            .roma__comida{
+            padding: 8px;
+            font-size: 25px;
+            &-porchetta{
+                padding: 90px;
+                height: 300px;
+                &-text{
+                    padding: 8px;
+                    font-size: 20px;
+                  }
+              }
+            &-spaghetti{
+                padding: 90px;
+                height: 300px;
+                &-text{
+                    padding: 8px;
+                    font-size: 20px;
+                  }
+              }
+            &-suppli{
+                padding: 90px;
+                height: 300px;
+                &-text{
+                    padding: 8px;
+                    font-size: 20px;
+                  }
+              }
+            &-martiozzo{
+                padding: 90px;
+                height: 300px;
+                &-text{
+                    padding: 8px;
+                    font-size: 20px;
+                  }
+              }
+            }
+        }
+        /* Tokio responsive */
+
+  .tokio__title {
+    height: 500px; 
+    line-height: 400px;
+    font-size: 80px;
+  }
+
+  .tokio__culture{
+    padding: 8px;
+    font-size: 25px;
+    &-description{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          } 
+      }
+  }
+
+
+  .tokio__activities{
+    padding: 8px;
+    font-size: 25px;
+    &-delfos{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-bay{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-marmuerto{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    &-shinjuku{
+        padding: 90px;
+        height: 300px;
+        &-text{
+            padding: 8px;
+            font-size: 20px;
+          }
+      }
+    
+     }
+     .tokio__comida{
+        padding: 8px;
+        font-size: 25px;
+        &-psarosoupa{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-tamagoyaki{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-sushi{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        &-ramen{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+          &-gyoza{
+            padding: 90px;
+            height: 300px;
+            &-text{
+                padding: 8px;
+                font-size: 20px;
+              }
+          }
+        }
 }
-
-
