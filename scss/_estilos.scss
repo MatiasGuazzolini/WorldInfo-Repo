@@ -86,24 +86,8 @@
     .search {
         height: 500px;
     }
-
-    .bar-btn{
-        display: flex ;
-    }
-
-    .nav__menu{
-        display: none;
-    }
-
-    .nav__menu li {
-        display: none;
-        line-height: 20px;
-        margin: 30px 0;
-        transition: all .5s;
-    }
-
-    .nav__menu li a{
-        font-size: 16px;
+    .header_nav{
+        height: 250px;
     }
     /* Atenas responsive */
 
@@ -154,7 +138,7 @@
             font-size: 20px;
           }
       }
-    &--phanatenaic{
+    &-phanatenaic{
         padding: 90px;
         height: 300px;
         &-text{
@@ -259,7 +243,7 @@
               }
        
       }
-    
+    }
       .jerusalen__comida{
         padding: 8px;
         font-size: 25px;
@@ -296,7 +280,7 @@
               }
           }
         }
-    }
+    
         /* Londres responsive */
 
     .londres__title {
@@ -365,7 +349,7 @@
             }
      
           }
-    
+        }
       .londres__comida{
         padding: 8px;
         font-size: 25px;
@@ -402,7 +386,7 @@
               }
           }
         }
-    }
+    
         /* Roma responsive */
 
     .roma {
@@ -462,7 +446,7 @@
             }
        
             }
-            
+        }
         
             .roma__comida{
             padding: 8px;
@@ -500,7 +484,7 @@
                   }
               }
             }
-        }
+        
         /* Tokio responsive */
 
   .tokio__title {
@@ -560,6 +544,7 @@
       }
     
      }
+     
      .tokio__comida{
         padding: 8px;
         font-size: 25px;
@@ -604,4 +589,10 @@
               }
           }
         }
+    .img{
+        width: 350px;
+    }
+    .index__photo-atenas{
+        max-width: 350px;
+    }
 }

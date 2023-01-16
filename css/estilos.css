@@ -21,9 +21,12 @@ a:visited {
 .header_nav {
   width: 100%;
   height: 80px;
-  background-color: black; }
+  background-color: black;
+  position: relative;
+  z-index: 1; }
 
 .navbar {
+  position: absolute;
   width: 100%;
   height: 80px;
   display: flex;
@@ -114,7 +117,7 @@ a:visited {
   font-size: 27px; }
 
 .footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   text-align: center;
   padding: 5px;
@@ -382,12 +385,12 @@ a:visited {
   text-align: center; }
 
 .cities___galery {
-  background-image: url(/images/galerybackground3.jpg);
+  background-image: url(/images/galerybackgorund.jpg);
   background-attachment: fixed;
   padding: 30px; }
 
 .img {
-  width: 100%;
+  width: 574px;
   height: 300px;
   object-fit: cover;
   transition: 1s;
@@ -400,6 +403,13 @@ a:visited {
 .img:hover {
   transform: scale(1.05);
   z-index: 2; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch; }
 
 /* Atenas */
 .atenas__info-title {
@@ -1868,17 +1878,8 @@ body {
     margin: 10px; }
   .search {
     height: 500px; }
-  .bar-btn {
-    display: flex; }
-  .nav__menu {
-    display: none; }
-  .nav__menu li {
-    display: none;
-    line-height: 20px;
-    margin: 30px 0;
-    transition: all .5s; }
-  .nav__menu li a {
-    font-size: 16px; }
+  .header_nav {
+    height: 250px; }
   /* Atenas responsive */
   .atenas__title {
     height: 500px;
@@ -1914,10 +1915,10 @@ body {
       .atenas__activities-hidra-text {
         padding: 8px;
         font-size: 20px; }
-    .atenas__activities--phanatenaic {
+    .atenas__activities-phanatenaic {
       padding: 90px;
       height: 300px; }
-      .atenas__activities--phanatenaic-text {
+      .atenas__activities-phanatenaic-text {
         padding: 8px;
         font-size: 20px; }
     .atenas__activities-zeus {
@@ -1988,33 +1989,33 @@ body {
       .jerusalen__activities-santosepulcro-text {
         padding: 8px;
         font-size: 20px; }
-    .jerusalen__activities .jerusalen__comida {
-      padding: 8px;
-      font-size: 25px; }
-      .jerusalen__activities .jerusalen__comida-shawarma {
-        padding: 90px;
-        height: 300px; }
-        .jerusalen__activities .jerusalen__comida-shawarma-text {
-          padding: 8px;
-          font-size: 20px; }
-      .jerusalen__activities .jerusalen__comida-sabichor {
-        padding: 90px;
-        height: 300px; }
-        .jerusalen__activities .jerusalen__comida-sabichor-text {
-          padding: 8px;
-          font-size: 20px; }
-      .jerusalen__activities .jerusalen__comida-labneh {
-        padding: 90px;
-        height: 300px; }
-        .jerusalen__activities .jerusalen__comida-labneh-text {
-          padding: 8px;
-          font-size: 20px; }
-      .jerusalen__activities .jerusalen__comida-halva {
-        padding: 90px;
-        height: 300px; }
-        .jerusalen__activities .jerusalen__comida-halva-text {
-          padding: 8px;
-          font-size: 20px; }
+  .jerusalen__comida {
+    padding: 8px;
+    font-size: 25px; }
+    .jerusalen__comida-shawarma {
+      padding: 90px;
+      height: 300px; }
+      .jerusalen__comida-shawarma-text {
+        padding: 8px;
+        font-size: 20px; }
+    .jerusalen__comida-sabichor {
+      padding: 90px;
+      height: 300px; }
+      .jerusalen__comida-sabichor-text {
+        padding: 8px;
+        font-size: 20px; }
+    .jerusalen__comida-labneh {
+      padding: 90px;
+      height: 300px; }
+      .jerusalen__comida-labneh-text {
+        padding: 8px;
+        font-size: 20px; }
+    .jerusalen__comida-halva {
+      padding: 90px;
+      height: 300px; }
+      .jerusalen__comida-halva-text {
+        padding: 8px;
+        font-size: 20px; }
   /* Londres responsive */
   .londres__title {
     height: 500px;
@@ -2062,33 +2063,33 @@ body {
       .londres__activities-castle-text {
         padding: 8px;
         font-size: 20px; }
-    .londres__activities .londres__comida {
-      padding: 8px;
-      font-size: 25px; }
-      .londres__activities .londres__comida-pudding {
-        padding: 90px;
-        height: 300px; }
-        .londres__activities .londres__comida-pudding-text {
-          padding: 8px;
-          font-size: 20px; }
-      .londres__activities .londres__comida-steak {
-        padding: 90px;
-        height: 300px; }
-        .londres__activities .londres__comida-steak-text {
-          padding: 8px;
-          font-size: 20px; }
-      .londres__activities .londres__comida-roastbeef {
-        padding: 90px;
-        height: 300px; }
-        .londres__activities .londres__comida-roastbeef-text {
-          padding: 8px;
-          font-size: 20px; }
-      .londres__activities .londres__comida-fishandchips {
-        padding: 90px;
-        height: 300px; }
-        .londres__activities .londres__comida-fishandchips-text {
-          padding: 8px;
-          font-size: 20px; }
+  .londres__comida {
+    padding: 8px;
+    font-size: 25px; }
+    .londres__comida-pudding {
+      padding: 90px;
+      height: 300px; }
+      .londres__comida-pudding-text {
+        padding: 8px;
+        font-size: 20px; }
+    .londres__comida-steak {
+      padding: 90px;
+      height: 300px; }
+      .londres__comida-steak-text {
+        padding: 8px;
+        font-size: 20px; }
+    .londres__comida-roastbeef {
+      padding: 90px;
+      height: 300px; }
+      .londres__comida-roastbeef-text {
+        padding: 8px;
+        font-size: 20px; }
+    .londres__comida-fishandchips {
+      padding: 90px;
+      height: 300px; }
+      .londres__comida-fishandchips-text {
+        padding: 8px;
+        font-size: 20px; }
   /* Roma responsive */
   .roma {
     height: 500px;
@@ -2130,33 +2131,33 @@ body {
       .roma__activities-vaticano-text {
         padding: 8px;
         font-size: 20px; }
-    .roma__activities .roma__comida {
-      padding: 8px;
-      font-size: 25px; }
-      .roma__activities .roma__comida-porchetta {
-        padding: 90px;
-        height: 300px; }
-        .roma__activities .roma__comida-porchetta-text {
-          padding: 8px;
-          font-size: 20px; }
-      .roma__activities .roma__comida-spaghetti {
-        padding: 90px;
-        height: 300px; }
-        .roma__activities .roma__comida-spaghetti-text {
-          padding: 8px;
-          font-size: 20px; }
-      .roma__activities .roma__comida-suppli {
-        padding: 90px;
-        height: 300px; }
-        .roma__activities .roma__comida-suppli-text {
-          padding: 8px;
-          font-size: 20px; }
-      .roma__activities .roma__comida-martiozzo {
-        padding: 90px;
-        height: 300px; }
-        .roma__activities .roma__comida-martiozzo-text {
-          padding: 8px;
-          font-size: 20px; }
+  .roma__comida {
+    padding: 8px;
+    font-size: 25px; }
+    .roma__comida-porchetta {
+      padding: 90px;
+      height: 300px; }
+      .roma__comida-porchetta-text {
+        padding: 8px;
+        font-size: 20px; }
+    .roma__comida-spaghetti {
+      padding: 90px;
+      height: 300px; }
+      .roma__comida-spaghetti-text {
+        padding: 8px;
+        font-size: 20px; }
+    .roma__comida-suppli {
+      padding: 90px;
+      height: 300px; }
+      .roma__comida-suppli-text {
+        padding: 8px;
+        font-size: 20px; }
+    .roma__comida-martiozzo {
+      padding: 90px;
+      height: 300px; }
+      .roma__comida-martiozzo-text {
+        padding: 8px;
+        font-size: 20px; }
   /* Tokio responsive */
   .tokio__title {
     height: 500px;
@@ -2230,4 +2231,8 @@ body {
       height: 300px; }
       .tokio__comida-gyoza-text {
         padding: 8px;
-        font-size: 20px; } }
+        font-size: 20px; }
+  .img {
+    width: 350px; }
+  .index__photo-atenas {
+    max-width: 350px; } }

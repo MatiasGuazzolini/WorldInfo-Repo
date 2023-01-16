@@ -5,19 +5,17 @@
 }
 
 .cities___galery{
-    background-image: url(/images/galerybackground3.jpg);
+    background-image: url(/images/galerybackgorund.jpg);
     background-attachment: fixed;
     padding: 30px;
 }
 
-.img{
-    width: 100%;
+.img {
+    width: 574px;
     height: 300px;
     object-fit: cover;
     transition: 1s;
-    border-radius: 15px;
-}
-
+    border-radius: 15px; }
 
 .col-lg-4{
    padding: 7px; 
@@ -28,3 +26,12 @@
     transform: scale(1.05);
     z-index: 2;   
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+  }
+  
